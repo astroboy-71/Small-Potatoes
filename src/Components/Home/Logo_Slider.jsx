@@ -48,13 +48,13 @@ export default function Logo_Slider() {
                                 <img
                                     src={imagess.img}
                                     className={`flex select-none pointer-events-none items-center justify-center
-                                        ${index === 0 ? "w-28 md:w-32" : ""}
-                                        ${index === 1 ? "w-28 md:w-32" : ""}
-                                        ${index === 2 ? "w-28 md:w-32" : ""}
-                                        ${index === 3 ? "w-28 md:w-32" : ""}
-                                        ${index === 4 ? "w-28 md:w-32" : ""}
-                                        ${index === 5 ? "w-28 md:w-32" : ""}
-                                        ${index === 6 ? "w-28 md:w-32" : ""}
+                                        ${index === 0 ? "w-14 md:w-16" : ""}
+                                        ${index === 1 ? "w-14 md:w-16" : ""}
+                                        ${index === 2 ? "w-14 md:w-16" : ""}
+                                        ${index === 3 ? "w-14 md:w-16" : ""}
+                                        ${index === 4 ? "w-14 md:w-16" : ""}
+                                        ${index === 5 ? "w-14 md:w-16" : ""}
+                                        ${index === 6 ? "w-14 md:w-16" : ""}
                                     `}
                                     alt={imagess.id}
                                 />

@@ -1,38 +1,38 @@
 const faqs = [
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'What is Small Potatoes Unlimited?',
         answer:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?',
+            'Small Potatoes Unlimited is a growth and operations consultancy that specializes in helping food and beverage companies scale their operations and succeed in the market. We offer strategic resources and expertise to drive growth and efficiency.',
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'How can Small Potatoes Unlimited help my brand grow?',
         answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?",
+            "We provide operational assets to reduce manufacturing costs, freeing up cash flow to focus on growth. Our decades of experience help you avoid costly mistakes and capitalize on opportunities to expand your brand’s reach and visibility.",
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'What experience does Small Potatoes Unlimited have in the industry?',
         answer:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?',
+            'Our team has successfully grown brands from zero to over $50MM and landed the #3 spot on the Inc. 5,000 list of fastest-growing companies in the country. We bring this extensive industry knowledge and experience to every partnership.',
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'Can Small Potatoes Unlimited help me expand my distribution network?',
         answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?",
+            "Yes, we leverage our existing partnerships and connections to help your brand reach new markets and increase visibility. Our network is designed to support your brand’s expansion and success.",
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'What is the Small Potatoes Fund?',
         answer:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?',
+            'The Small Potatoes Fund is an initiative by Small Potatoes Unlimited to support food & beverage companies in blazing their own operations path. It provides financial and strategic resources to help these companies grow and succeed.',
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'Is Small Potatoes Unlimited only for large, established brands?',
         answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?",
+            "No, we work with brands of all sizes, from startups to established companies. Our goal is to provide the right resources and expertise at the right time, regardless of the brand’s current stage.",
     },
     {
-        question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        question: 'How do I start working with Small Potatoes Unlimited?',
         answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem magnam, eos ex at quasi quas accusamus enim commodi sequi magni fugit. Voluptas, commodi? Magnam delectus asperiores distinctio quidem consequatur?",
+            "To begin working with us, simply reach out through our contact page. We’ll schedule a consultation to discuss your brand’s needs and how we can support your growth and operational goals.",
     },
 ];
 

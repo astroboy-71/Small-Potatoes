@@ -11,6 +11,7 @@ export default function Hero() {
 
         <>
             <section className='lg:h-[650px] w-full work-sans relative bg-white' id='home'>
+                
                 <div className='overflow-hidden w-full'>
                     {/* <div className='linear-shade absolute -top-[50px] md:-top-[400px] md:left-1/2 -translate-x-1/2'></div>
                     <div className='lg:block hidden linear-shade absolute md:-top-[700px] md:left-1/2 left-[150px] -top-[200px] -translate-x-[10%]'></div> */}
@@ -18,7 +19,7 @@ export default function Hero() {
                 </div>
 
                 <div className={`${styles.maxWidth} text-white h-full flex lg:items-center justify-center z-[1] relative lg:mt-0 mt-32 md:mt-40 lg:mb-0 md:mb-32 sm:mb-16`}>
-                    <div className='lg:px-0 px-6'>
+                    <div className='lg:px-0 px-6 mt-12'>
                         <h1 className={`${styles.heroHeadText} font-bold text-center w-full max-w-[1120px] capitalize text-black`}>
                             Experiences Growing CPG<br/> Brands with
                             <span className='text-light-green'> Operations</span> & <span className='text-neal-blue'>Business</span> Support
@@ -32,9 +33,9 @@ export default function Hero() {
                                     <span className='relative z-10'>Call or Text 0123456789</span>
                                 </button>
                             </Link>
-                            <a href="#" target='_blank' className='w-full md:w-auto'>
+                            <a href="https://calendly.com/masonarnold" target='_blank' className='w-full md:w-auto'>
                                 <button className={`${btnStyles} bg-transparent border border-black before:absolute before:h-0 before:w-0 before:rounded-full hover:border-[#0270bf] text-black hover:text-[#0270bf]`}>
-                                    <span className='relative z-10'>Schedule a 15 Minute Call</span>
+                                    <span className='relative z-10'>Schedule a 30 Minute Call</span>
                                 </button>
                             </a>
                         </div>

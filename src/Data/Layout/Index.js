@@ -1,4 +1,4 @@
-import { dummy } from "../../assets"
+import { companylogo } from "../../assets"
 
 const NavLinks = [
     // {
@@ -31,31 +31,31 @@ const LogoSlider = [
 
     {
         id: 1,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 2,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 3,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 4,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 5,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 6,
-        img: dummy,
+        img: companylogo,
     },
     {
         id: 7,
-        img: dummy,
+        img: companylogo,
     },
 
 ]

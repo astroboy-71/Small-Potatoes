@@ -5,7 +5,7 @@ import NewLogo from "./logo.png";
 
 // Logos Import
 
-import dummy from "./logo-slider/dummy.svg"
+import companylogo from "./logo.png"
 
 // Testimonial Profile Picture Import
 import Profile from "./testimonial/profile.png"
@@ -28,7 +28,7 @@ export {
 
     // Logo Export
     
-    dummy,
+    companylogo,
 
     // Testimonial Profile Picture Export
     Profile,
