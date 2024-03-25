@@ -68,7 +68,7 @@ export default function Services() {
       <section className="bg-[#EEF5F9] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
         <div className={`${styles.maxWidth} py-12`}>
           <div className="">
-            <h1 className={styles.sectionHeadText}>Services</h1>
+            <h1 className={`text-[#00B6EF] ${styles.sectionHeadText}`}>Services</h1>
             <p className="text-[#848484] text-base px-6 md:text-lg text-center pt-4">
               Play your best hand by leveraging the services we offer.
             </p>
