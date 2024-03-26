@@ -17,7 +17,7 @@ export default function Services() {
         src="https://cdn.lordicon.com/ajfmgpbq.json"
         trigger="loop-on-hover"
         delay="250"
-        colors="primary:#00b6ef,secondary:#05e9be"
+        colors="primary:#ff7251,secondary:#9b2948"
         style={
           {
             width: "100%",
@@ -33,7 +33,7 @@ export default function Services() {
         src="https://cdn.lordicon.com/nmguxqka.json"
         trigger="loop-on-hover"
         delay="250"
-        colors="primary:#00b6ef,secondary:#05e9be"
+        colors="primary:#ff7251,secondary:#9b2948"
         style={
           {
             width: "100%",
@@ -49,7 +49,7 @@ export default function Services() {
         src="https://cdn.lordicon.com/bfqujiem.json"
         trigger="loop-on-hover"
         delay="250"
-        colors="primary:#00b6ef,secondary:#05e9be"
+        colors="primary:#ff7251,secondary:#9b2948"
         style={
           {
             width: "100%",
@@ -90,7 +90,7 @@ export default function Services() {
                     {cards.animatedSvg}
                   </div>
                   <div className="pt-3 flex flex-col gap-y-3">
-                    <h1 className="work-sans text-xl font-semibold text-[#9b2948]">
+                    <h1 className="work-sans text-xl font-semibold text-[#ff7251]">
                       {cards.head}
                     </h1>
                     <p className="text-base md:text-lg text-[#898989] font-normal w-full">
