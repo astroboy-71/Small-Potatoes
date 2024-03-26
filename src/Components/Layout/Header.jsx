@@ -47,7 +47,7 @@ export default function Header() {
 
     return (
         <>
-            <header className='w-full work-sans absolute mt-2 z-10 overflow-x-clip'>
+            <header className='w-full work-sans absolute mt-2 overflow-x-clip z-50'>
                 {hideNav ? (
                     <nav className={`${styles.maxWidthNav} py-6 2xl:px-0 px-4 flex justify-between items-center`}>
                         <div className="left-menu menu-items flex w-auto">
@@ -60,7 +60,7 @@ export default function Header() {
                                         smooth={true}
                                         offset={0}
                                         duration={650}
-                                        className='hover:text-[#ff7251] text-black font-semibold cursor-pointer transition-all duration-150 ease-linear'
+                                        className='hover:text-[#ff7251] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
                                     >
                                         {link.title}
                                     </ScrollLink>
@@ -85,7 +85,7 @@ export default function Header() {
                                         smooth={true}
                                         offset={-40}
                                         duration={650}
-                                        className='hover:text-[#ff7251] text-black font-semibold cursor-pointer transition-all duration-150 ease-linear'
+                                        className='hover:text-[#ff7251] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
                                     >
                                         {link.title}
                                     </ScrollLink>
