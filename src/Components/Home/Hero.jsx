@@ -38,7 +38,7 @@ export default function Hero() {
                                 backgroundImage: `url(${image})`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
-                                transition: 'opacity 2s ease-in-out',
+                                transition: 'opacity 1s ease-in-out',
                                 opacity: index === currentImageIndex ? 1 : 0,
                             }}
                             className='absolute w-full h-full top-0 left-0'
@@ -46,7 +46,7 @@ export default function Hero() {
                     ))}
                 </div>
                 
-                <div className='overflow-hidden w-full z-40'>
+                <div className='overflow-hidden w-full'>
                     <div className='linear-shade absolute -top-[50px] md:-top-[400px] md:left-1/2 -translate-x-1/2'></div>
                     <div className='lg:block hidden linear-shade absolute md:-top-[700px] md:left-1/2 left-[150px] -top-[200px] -translate-x-[10%]'></div>
                     <img src={bgDrop} alt="Nothing" className='absolute z-40 left-0 top-0 md:left-[58%] -translate-x-1/2 md:-top-28 md:w-auto overflow-hidden' />

@@ -47,7 +47,7 @@ export default function Header() {
 
     return (
         <>
-            <header className='w-full work-sans absolute mt-2 overflow-x-clip z-50'>
+            <header className='w-full work-sans absolute mt-2 overflow-x-clip z-[999]'>
                 {hideNav ? (
                     <nav className={`${styles.maxWidthNav} py-6 2xl:px-0 px-4 flex justify-between items-center`}>
                         <div className="left-menu menu-items flex w-auto">
