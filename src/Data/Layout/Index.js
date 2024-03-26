@@ -1,4 +1,4 @@
-import { companylogo } from "../../assets"
+import { Vogue, Seriousketo, Wellgood, Insulin, Fast, Keto, Oprah } from "../../assets"
 
 const NavLinks = [
     // {
@@ -31,31 +31,31 @@ const LogoSlider = [
 
     {
         id: 1,
-        img: companylogo,
+        img: Vogue,
     },
     {
         id: 2,
-        img: companylogo,
+        img: Seriousketo,
     },
     {
         id: 3,
-        img: companylogo,
+        img: Wellgood,
     },
     {
         id: 4,
-        img: companylogo,
+        img: Insulin,
     },
     {
         id: 5,
-        img: companylogo,
+        img: Fast,
     },
     {
         id: 6,
-        img: companylogo,
+        img: Keto,
     },
     {
         id: 7,
-        img: companylogo,
+        img: Oprah,
     },
 
 ]

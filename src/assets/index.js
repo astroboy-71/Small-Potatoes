@@ -5,7 +5,13 @@ import NewLogo from "./logo.png";
 
 // Logos Import
 
-import companylogo from "./logo.png"
+import Vogue from "./logo-slider/vogue.png"
+import Seriousketo from "./logo-slider/seriousketo.png"
+import Wellgood from "./logo-slider/well+good.png"
+import Insulin from "./logo-slider/insulin.png"
+import Fast from "./logo-slider/fastcompany.png"
+import Keto from "./logo-slider/keto.png"
+import Oprah from "./logo-slider/oprah.png"
 
 // Testimonial Profile Picture Import
 import Profile from "./testimonial/profile.png"
@@ -28,7 +34,13 @@ export {
 
     // Logo Export
     
-    companylogo,
+    Vogue,
+    Seriousketo,
+    Wellgood,
+    Insulin,
+    Fast,
+    Keto,
+    Oprah,
 
     // Testimonial Profile Picture Export
     Profile,
