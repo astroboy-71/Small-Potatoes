@@ -20,7 +20,7 @@ function Testimonial() {
       <section className='work-sans relative bg-white pt-20' id='reviews'>
         <div className={`w-full max-w-[1340px] overflow-hidden m-auto relative`}>
           <div>
-            <h1 className={`${styles.sectionHeadText} px-8 sm:px-4 text-[#00B6EF]`}>
+            <h1 className={`${styles.sectionHeadText} px-8 sm:px-4 text-[#ff7251]`}>
               Reviews
             </h1>
             <p className={`${styles.sectionSubText} text-center pt-4 px-6 text-black`}>
@@ -72,7 +72,7 @@ function Testimonial() {
                 TESTIMONIAL_DATA.map((data, index) => (
                   <SwiperSlide key={index} className='mb-10 sm:mb-16 sm:w-[440px] lg:w-[550px] lg:h-[350px]'>
                     <div
-                      className="card bg-gradient-to-b w-auto sm:w-[440px] lg:w-[550px] rounded-xl from-[#00FFFF] to-[#000210] p-[1px] lg:mx-0 mx-6 transition-all duration-200 ease-out h-full"
+                      className="card bg-gradient-to-b w-auto sm:w-[440px] lg:w-[550px] rounded-xl from-[#ffcd74] to-[#000210] p-[1px] lg:mx-0 mx-6 transition-all duration-200 ease-out h-full"
                     >
                       <div className='bg-white rounded-xl py-8 px-8 h-full shadow-[rgba(0,0,0,0.45)_0px_25px_20px_-20px]'>
                         <div className='flex md:justify-between md:items-center md:flex-row flex-col items-start md:gap-y-0 gap-y-6'>

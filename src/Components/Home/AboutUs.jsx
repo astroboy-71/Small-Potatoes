@@ -66,7 +66,7 @@ const AboutUs = memo(() => {
     <section className="md:py-4 work-sans bg-white" id="about-us">
       <div className={`${styles.maxWidth} mt-16 mb-8 md:mt-16 md:mb-24 px-6`}>
         <div className="pb-8 md:pb-12">
-          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#00B6EF]`}>About Us</h1>
+          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#ff7251]`}>About Us</h1>
         </div>
 
         <div className="flex items-start justify-start gap-x-6 md:flex-row flex-col 2xl:h-[450px] h-auto">
@@ -112,10 +112,10 @@ const AboutUs = memo(() => {
               </div>
             ))}
           </div>
-          <div className="w-full flex justify-start items-end">
+          <div className="w-full flex justify-start items-end relative">
             <img src={Veggie} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto rounded-2xl ml-6 -mt-10" />
-            <img src={Greening} alt="Small Potatoes Logo" className="select-none pointer-events-none h-1/2 w-auto rounded-2xl absolute -mb-32" />
-            <img src={Mason} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto rounded-2xl absolute h-[14%] ml-64 -mb-16" />
+            <img src={Greening} alt="Small Potatoes Logo" className="select-none pointer-events-none h-5/6 w-auto rounded-2xl absolute -mb-32" />
+            <img src={Mason} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto rounded-2xl absolute h-[30%] ml-60 -mb-16" />
           </div>
         </div>
       </div>

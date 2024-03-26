@@ -40,7 +40,7 @@ body {
 }
 
 .card-hover:hover {
-    box-shadow: -4px 4px 66.2px #0088EB49;
+    box-shadow: -4px 4px 66.2px #ffcd74;
 }
 
 .testimonial .swiper-slide {
@@ -87,7 +87,7 @@ body {
 
 .swiper-pagination-bullet-active {
     width: 30px !important;
-    background-color: #00C2FF !important;
+    background-color: #ff7251 !important;
 }
 
 .cover {

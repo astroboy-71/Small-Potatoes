@@ -15,7 +15,7 @@ export default {
     extend: {
       colors: {
         "neal-blue": "#00B6EF",
-        "another-blue" : "#00C2FF",
+        "another-blue" : "#ff7251",
         "custom-blue": "#0270BF",
         "light-green": "#05E9BE",
         "mid-night": "#010101",

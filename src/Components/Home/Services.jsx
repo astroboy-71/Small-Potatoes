@@ -65,10 +65,10 @@ export default function Services() {
 
   return (
     <>
-      <section className="bg-[#EEF5F9] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
+      <section className="bg-[#fff5da] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
         <div className={`${styles.maxWidth} py-12`}>
           <div className="">
-            <h1 className={`text-[#00B6EF] ${styles.sectionHeadText}`}>Services</h1>
+            <h1 className={`text-[#ff7251] ${styles.sectionHeadText}`}>Services</h1>
             <p className="text-[#848484] text-base px-6 md:text-lg text-center pt-4">
               Play your best hand by leveraging the services we offer.
             </p>
@@ -78,7 +78,7 @@ export default function Services() {
             {CardData.map((cards, index) => (
               <div
                 key={index}
-                className="cursor-pointer card bg-gradient-to-b mt-4 w-[100%] sm:w-[360px] rounded-xl from-[#B3CDF8] to-[#000210] p-[1px] hover:bg-gradient-to-b hover:from-[#00FFFF] hover:to-[#000210] card-hover lg:mx-0 mx-8 transition-all duration-200 ease-out"
+                className="cursor-pointer card bg-gradient-to-b mt-4 w-[100%] sm:w-[360px] rounded-xl from-[#ffedbf] to-[#000210] p-[1px] hover:bg-gradient-to-b hover:from-[#ff7251] hover:to-[#000210] card-hover lg:mx-0 mx-8 transition-all duration-200 ease-out"
               >
                 <div className="bg-white rounded-xl  py-6 px-5 h-full sm:h-[450px] flex flex-col items-center justify-evenly text-center"
                   onMouseEnter={() => MouseEnter(index)}
@@ -90,7 +90,7 @@ export default function Services() {
                     {cards.animatedSvg}
                   </div>
                   <div className="pt-3 flex flex-col gap-y-3">
-                    <h1 className="work-sans text-xl font-semibold text-black">
+                    <h1 className="work-sans text-xl font-semibold text-[#9b2948]">
                       {cards.head}
                     </h1>
                     <p className="text-base md:text-lg text-[#898989] font-normal w-full">
