@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import { AboutCard } from "../../Data/Home/About";
 import { styles } from "../../styles";
 import { NewLogo } from '../../assets';
+import Greening from '../../assets/greening.png';
+import Veggie from '../../assets/veggie.jpeg';
+import Mason from '../../assets/Mason.jpeg';
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -60,13 +63,13 @@ const AboutUs = memo(() => {
 
 
   return (
-    <section className="md:py-4 work-sans  bg-white" id="about-us">
-      <div className={`${styles.maxWidth} mt-16 mb-8 md:my-16 px-6`}>
+    <section className="md:py-4 work-sans bg-white" id="about-us">
+      <div className={`${styles.maxWidth} mt-16 mb-8 md:mt-16 md:mb-24 px-6`}>
         <div className="pb-8 md:pb-12">
           <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#00B6EF]`}>About Us</h1>
         </div>
 
-        <div className="flex items-start justify-start gap-x-4 md:flex-row flex-col 2xl:h-[450px] h-auto">
+        <div className="flex items-start justify-start gap-x-6 md:flex-row flex-col 2xl:h-[450px] h-auto">
           <div>
             {/* Cards */}
             {AboutCard.map((cardData, index) => (
@@ -109,8 +112,10 @@ const AboutUs = memo(() => {
               </div>
             ))}
           </div>
-          <div className="w-full flex justify-end items-start">
-            <img src={NewLogo} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto" />
+          <div className="w-full flex justify-start items-end">
+            <img src={Veggie} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto rounded-2xl ml-6 -mt-10" />
+            <img src={Greening} alt="Small Potatoes Logo" className="select-none pointer-events-none h-1/2 w-auto rounded-2xl absolute -mb-32" />
+            <img src={Mason} alt="Small Potatoes Logo" className="select-none pointer-events-none w-auto rounded-2xl absolute h-[14%] ml-64 -mb-16" />
           </div>
         </div>
       </div>
