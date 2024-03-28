@@ -4,6 +4,7 @@ import Logo_Slider from '../Components/Home/Logo_Slider'
 import Services from '../Components/Home/Services'
 import Faq from '../Components/Home/Faq'
 import About from '../Components/Home/AboutUs'
+import Portfolio from '../Components/Home/portfolio'
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Logo_Slider />
             <About />
             <Services />
+            <Portfolio />
             <Faq />
         </>
     )

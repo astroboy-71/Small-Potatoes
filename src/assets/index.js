@@ -20,6 +20,17 @@ import Computer from './services/Custom Website.svg'
 import Layers from './services/Dev.svg'
 import Seo from './services/SEO.svg'
 
+
+//portfolio
+import Ceces from './portfolio/Ceces.png';
+import ChipMonk from './portfolio/ChipMonk.png';
+import Greenling from './portfolio/Greenling.png';
+import Mostly_Green from './portfolio/Mostly_Green.png';
+import NurturMe from './portfolio/NurturMe.png';
+import Red_Thumb from './portfolio/Red_Thumb.png';
+import Sunwink from './portfolio/Sunwink.png';
+import The_Conscious_Pet from './portfolio/The_Conscious_Pet.png';
+
 export {
 
     // Main Site Logo Export
@@ -34,6 +45,17 @@ export {
     Fast,
     Keto,
     Oprah,
+
+    //portfolio
+    Ceces,
+    ChipMonk,
+    Greenling,
+    Mostly_Green,
+    NurturMe,
+    Red_Thumb,
+    Sunwink,
+    The_Conscious_Pet,
+
 
     Computer,
     Layers,
