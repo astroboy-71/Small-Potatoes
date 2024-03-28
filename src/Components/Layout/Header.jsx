@@ -49,7 +49,7 @@ export default function Header() {
         <>
             <header className='w-full work-sans absolute mt-2 overflow-x-clip z-[999]'>
                 {hideNav ? (
-                    <nav className={`${styles.maxWidthNav} py-6 2xl:px-0 px-4 flex justify-between items-center`}>
+                    <nav className={`${styles.maxWidthNav} pb-6 2xl:px-0 px-4 flex justify-between items-center`}>
                         <div className="left-menu menu-items flex w-auto">
                             <ul className={`list-items ${MenuStyles}`}>
                                 {NavLinks.slice(0, 2).map((link, index) => (
