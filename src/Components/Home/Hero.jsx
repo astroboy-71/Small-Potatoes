@@ -56,19 +56,14 @@ export default function Hero() {
                     <div className='lg:px-0 px-6 mt-12'>
                         <h1 className={`${styles.heroHeadText} font-bold text-center w-full max-w-[1120px] capitalize text-white`}>
                             Experiences Growing CPG<br/> Brands with
-                            <span className='text-[#9b2948]'> Operations</span> & <span className='text-[#ff7251]'>Business</span> Support
+                            <span className='text-[#931E0B]'> Operations</span> & <span className='text-[#FE983B]'>Business</span> Support
                         </h1>
                         <p className={`text-base font-light md:text-lg md:font-normal w-full pt-6 max-w-[680px] text-center m-auto text-white`}>
                         We buy CPG brands and provide the resources and expertise to help them grow and succeed.
                         </p>
                         <div className='flex md:flex-row flex-col gap-y-4 justify-center items-center gap-x-4 mt-8 md:-mb-12 md:mt-12 overflow-hidden'>
-                            <Link to="tel:0123456789" className='w-full md:w-auto'>
-                                <button className={`${btnStyles} text-white bg-[#ff7251] hover:bg-[#dd5b3e]`}>
-                                    <span className='relative z-10'>Call or Text 0123456789</span>
-                                </button>
-                            </Link>
                             <a href="https://calendly.com/masonarnold" target='_blank' className='w-full md:w-auto'>
-                                <button className={`${btnStyles} bg-transparent border border-white before:absolute before:h-0 before:w-0 before:rounded-full hover:border-[#ff7251] text-white hover:text-[#ff7251]`}>
+                                <button className={`${btnStyles} bg-transparent border border-white before:absolute before:h-0 before:w-0 before:rounded-full hover:border-[#FE983B] text-white hover:text-[#FE983B]`}>
                                     <span className='relative z-10'>Schedule a 30 Minute Call</span>
                                 </button>
                             </a>

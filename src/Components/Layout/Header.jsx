@@ -60,7 +60,7 @@ export default function Header() {
                                         smooth={true}
                                         offset={0}
                                         duration={650}
-                                        className='hover:text-[#ff7251] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
+                                        className='hover:text-[#FE983B] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
                                     >
                                         {link.title}
                                     </ScrollLink>
@@ -85,7 +85,7 @@ export default function Header() {
                                         smooth={true}
                                         offset={-40}
                                         duration={650}
-                                        className='hover:text-[#ff7251] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
+                                        className='hover:text-[#FE983B] text-white font-semibold cursor-pointer transition-all duration-150 ease-linear'
                                     >
                                         {link.title}
                                     </ScrollLink>

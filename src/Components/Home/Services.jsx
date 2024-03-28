@@ -68,7 +68,7 @@ export default function Services() {
       <section className="bg-[#fff5da] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
         <div className={`${styles.maxWidth} py-12`}>
           <div className="">
-            <h1 className={`text-[#ff7251] ${styles.sectionHeadText}`}>Services</h1>
+            <h1 className={`text-[#931E0B] ${styles.sectionHeadText}`}>Services</h1>
             <p className="text-[#848484] text-base px-6 md:text-lg text-center pt-4">
               Play your best hand by leveraging the services we offer.
             </p>
@@ -90,7 +90,7 @@ export default function Services() {
                     {cards.animatedSvg}
                   </div>
                   <div className="pt-3 flex flex-col gap-y-3">
-                    <h1 className="work-sans text-xl font-semibold text-[#ff7251]">
+                    <h1 className="work-sans text-xl font-semibold text-[#FE983B]">
                       {cards.head}
                     </h1>
                     <p className="text-base md:text-lg text-[#898989] font-normal w-full">

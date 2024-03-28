@@ -66,7 +66,7 @@ const AboutUs = memo(() => {
     <section className="md:py-4 work-sans bg-white" id="about-us">
       <div className={`${styles.maxWidth} mt-16 mb-8 md:mt-16 md:mb-24 px-6`}>
         <div className="pb-8 md:pb-12">
-          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#ff7251]`}>About Us</h1>
+          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#931E0B]`}>About Us</h1>
         </div>
 
         <div className="flex items-start justify-start gap-x-6 md:flex-row flex-col 2xl:h-[450px] h-auto">

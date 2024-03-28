@@ -15,7 +15,7 @@ export default function Faq() {
     <>
       <section className="md:pt-20 pt-10 pb-20 work-sans bg-white" id='faqs'>
         <div className="pt-4 pb-6">
-          <h1 className={`${styles.sectionHeadText} px-4 text-[#ff7251]`}>
+          <h1 className={`${styles.sectionHeadText} px-4 text-[#931E0B]`}>
             Frequently Asked Questions
           </h1>
         </div>
@@ -27,7 +27,7 @@ export default function Faq() {
               onClick={() => toggleAccordion(index)}
             >
               <div
-                className={`${activeIndex === index ? "text-[#ff7251] minus after:bg-[#ff7251] before:bg-[#ff7251]" : "text-black"
+                className={`${activeIndex === index ? "text-[#FE983B] minus after:bg-[#FE983B] before:bg-[#FE983B]" : "text-black"
                   } flex relative justify-between items-center faq-sign`}
               >
                 <h1 className="text-base md:text-lg font-medium pr-6">

@@ -11,7 +11,7 @@ import 'swiper/css';
 export default function Logo_Slider() {
     return (
         <>
-            <section className='bg-[#ffcd74] relative w-full md:mt-0 sm:mt-0 mt-16'>
+            <section className='bg-[#FE983B] relative w-full md:mt-0 sm:mt-0 mt-16'>
                 <div className='bg-gradient-to-r from-white to-[#11101600] w-[30px] md:w-[330px] h-full absolute top-0 z-[5]'></div>
                 <div className='bg-gradient-to-l from-white to-[#11101600] w-[30px] md:w-[310px] h-full absolute top-0 right-0 z-[5]'></div>
                 <div className={`py-5 logos w-full max-w-[2000px] mx-auto`}>
