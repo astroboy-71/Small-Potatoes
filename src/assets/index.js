@@ -13,13 +13,6 @@ import Fast from "./logo-slider/fastcompany.png"
 import Keto from "./logo-slider/keto.png"
 import Oprah from "./logo-slider/oprah.png"
 
-// Testimonial Profile Picture Import
-import Profile from "./testimonial/profile.png"
-import Profile1 from "./testimonial/profile_2.png"
-import Profile2 from "./testimonial/profile_3.png"
-import Profile3 from "./testimonial/profile_4.png"
-import Profile4 from "./testimonial/profile_5.png"
-
 
 
 
@@ -41,13 +34,6 @@ export {
     Fast,
     Keto,
     Oprah,
-
-    // Testimonial Profile Picture Export
-    Profile,
-    Profile1,
-    Profile2,
-    Profile3,
-    Profile4,
 
     Computer,
     Layers,
