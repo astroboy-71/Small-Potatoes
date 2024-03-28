@@ -118,9 +118,9 @@ export default function Portfolio() {
                     <img src={data.img} alt="Kagan" className="w-full" />
                     <a href={data.GoTo} target='_blank'>
                       <button
-                        className={` ${data.Colors} w-[calc(100%-50px)] py-2 text-white absolute z-10 rounded-full bottom-4 left-1/2
+                        className={` ${data.Colors} w-[calc(100%-50px)] py-2 absolute z-10 rounded-full bottom-4 left-1/2
                             -translate-x-1/2
-                            ${index === 4 || index === 9 ? "text-[#000!important]" : ""}
+                            text-black font-semibold
                             `}
                       >
                         View Live Site
