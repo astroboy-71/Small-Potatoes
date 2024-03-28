@@ -78,7 +78,7 @@ export default function Services() {
             {CardData.map((cards, index) => (
               <div
                 key={index}
-                className="cursor-pointer card bg-gradient-to-b mt-4 w-[100%] sm:w-[360px] rounded-xl from-[#ffedbf] to-[#000210] p-[1px] hover:bg-gradient-to-b hover:from-[#ff7251] hover:to-[#000210] card-hover lg:mx-0 mx-8 transition-all duration-200 ease-out"
+                className="cursor-pointer card bg-gradient-to-b mt-4 w-[100%] sm:w-[360px] rounded-xl from-[#ffedbf] to-[#000210] p-[1px] lg:mx-0 mx-8 transition-all duration-200 ease-out"
               >
                 <div className="bg-white rounded-xl  py-6 px-5 h-full sm:h-[450px] flex flex-col items-center justify-evenly text-center"
                   onMouseEnter={() => MouseEnter(index)}
