@@ -16,9 +16,7 @@ import Oprah from "./logo-slider/oprah.png"
 
 
 
-import Computer from './services/Custom Website.svg'
-import Layers from './services/Dev.svg'
-import Seo from './services/SEO.svg'
+
 
 
 //portfolio
@@ -57,7 +55,5 @@ export {
     The_Conscious_Pet,
 
 
-    Computer,
-    Layers,
-    Seo,
+
 };

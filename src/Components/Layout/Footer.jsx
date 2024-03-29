@@ -59,9 +59,9 @@ export default function footer() {
             <div className='md:pb-0 pb-6'>
               <div>
                 <div className='flex pt-2 gap-x-4'>
-                  <Icon icon="pajamas:twitter" className='md:text-[22px] text-lg hover:text-white cursor-pointer transition-all duration-150 text-black' />
-                  <Icon icon="ic:outline-facebook" className='text-[22px] md:text-2xl hover:text-white cursor-pointer transition-all duration-150 text-black' />
-                  <Icon icon="mingcute:youtube-fill" className='text-[22px] md:text-2xl hover:text-white cursor-pointer transition-all duration-150 text-black' />
+                  <a href='' target='_blank'>
+                    <Icon icon="mdi:linkedin" className='md:text-[32px] text-lg hover:text-white cursor-pointer transition-all duration-150 text-black' />
+                  </a>
                 </div>
               </div>
             </div>

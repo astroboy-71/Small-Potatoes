@@ -58,13 +58,13 @@ export default function Portfolio() {
   return (
     <>
       <section className="work-sans bg-white" id='portfolio'>
-        <div className={`${styles.maxWidth} w-full pt-4 md:pt-16 md:pb-28 pb-10 text-left work-sans relative`}>
+        <div className={`${styles.maxWidth} w-full pt-4 md:pt-16 md:pb-16 pb-10 text-left work-sans relative`}>
           <div className={`mb-8 md:mb-16 px-6 lg:px-0 relative`}>
             <h1 className={`${styles.sectionHeadText} pb-6 lg:px-0 px-6 flex items-center justify-center 2xl:justify-start 2xl:items-start text-[#931E0B]`}>
-              Explore Our Portfolio
+             Our Track Records
             </h1>
             <p className={`${styles.sectionSubText} w-full capitalize text-center 2xl:text-left text-black`}>
-              View the outcomes of our approach and attention to detail.
+            Victory in Every Venture: Unveiling Our Track Records.
             </p>
           </div>
           <div className="mb-10 w-full relative pot-margin">
@@ -72,7 +72,7 @@ export default function Portfolio() {
             <Swiper
               slidesPerView={3}
               spaceBetween={0}
-              slidesPerGroup={2}
+              slidesPerGroup={1}
               loop={true}
               // slideToClickedSlide={true}
               speed={540}
@@ -112,19 +112,115 @@ export default function Portfolio() {
                 swiper = swiperInstance;
               }}
             >
-              {PortFolio.map((data, index) => (
+              {PortFolio.slice(0, 4).map((data, index) => (
                 <SwiperSlide key={index} onClick={() => CardActive(index)}>
                   <div ref={cardRefs[index]} className="cursor-pointer overflow-hidden transition-all duration-150 ease-in relative w-full mx-6 md:mx-0 portfolio-card">
                     <img src={data.img} alt="Kagan" className="w-full" />
-                    <a href={data.GoTo} target='_blank'>
-                      <button
-                        className={` ${data.Colors} w-[calc(100%-50px)] py-2 absolute z-10 rounded-full bottom-4 left-1/2
+                    <h1 className='w-[calc(100%-50px)] py-2 absolute z-30 bottom-4 left-1/2
                             -translate-x-1/2
-                            text-black font-semibold
+                            text-white font-extrabold'>{data.name}</h1>
+                    <a href={data.GoTo} target='_blank'>
+                      <p
+                        className={` w-[calc(100%-50px)] py-2 absolute z-10 bottom-4 left-1/2 flex gap-2 items-center
+                            -translate-x-1/2
+                            text-white font-semibold
                             `}
                       >
-                        View Live Site
-                      </button>
+                        Visit Site
+                        <svg fill="#fff" height="30px" width="30px"  
+                          viewBox="0 0 330 330">
+                        <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                          s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                          c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/>
+                        </svg>
+                      </p>
+                    </a>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div className="flex items-center justify-center gap-x-8 2xl:pt-0 pt-6 2xl:absolute -top-24 z-20 right-0">
+              <Icon icon="gravity-ui:arrow-up" className="your-prev-button-class rotate-[270deg] text-3xl cursor-pointer text-[#BABABA] hover:text-white transition-all" onClick={handlePrevClick} />
+              <Icon icon="gravity-ui:arrow-up" className="your-next-button-class rotate-[90deg] text-3xl cursor-pointer text-[#BABABA] hover:text-white transition-all" onClick={handleNextClick} />
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.maxWidth} w-full pt-4 md:pt-16 md:pb-16 pb-10 text-left work-sans relative`}>
+          <div className={`mb-8 md:mb-16 px-6 lg:px-0 relative`}>
+            <h1 className={`${styles.sectionHeadText} pb-6 lg:px-0 px-6 flex items-center justify-center 2xl:justify-start 2xl:items-start text-[#931E0B]`}>
+              Explore Our Portfolio
+            </h1>
+            <p className={`${styles.sectionSubText} w-full capitalize text-center 2xl:text-left text-black`}>
+              View the outcomes of our approach and attention to detail.
+            </p>
+          </div>
+          <div className="mb-10 w-full relative pot-margin">
+            {/* <div className='bg-[#000210] lg:w-[2rem] 2xl:w-[15rem] absolute h-full right-0 z-10 lg:block hidden select-none pointer-events-auto'></div> */}
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={0}
+              slidesPerGroup={1}
+              loop={true}
+              // slideToClickedSlide={true}
+              speed={540}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1.25,
+                  spaceBetween: 20,
+                  slidesPerGroup: 1
+                },
+                500: {
+                  slidesPerView: 1.5,
+                },
+                600: {
+                  slidesPerView: 2.25,
+                  slidesPerGroup: 2,
+                },
+                1200: {
+                  slidesPerView: 2.5,
+                },
+                1500: {
+                  slidesPerView: 3,
+                  spaceBetween: 35
+                }
+              }}
+              autoplay={{
+                delay: 3225,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              navigation={{
+                prevEl: '.your-prev-button-class',
+                nextEl: '.your-next-button-class',
+              }}
+              modules={[Autoplay, Navigation]}
+              className="relative"
+              onSwiper={(swiperInstance) => {
+                swiper = swiperInstance;
+              }}
+            >
+              {PortFolio.slice(4,8).map((data, index) => (
+                <SwiperSlide key={index} onClick={() => CardActive(index)}>
+                  <div ref={cardRefs[index]} className="cursor-pointer overflow-hidden transition-all duration-150 ease-in relative w-full mx-6 md:mx-0 portfolio-card">
+                    <img src={data.img} alt={data.name} className="w-full" />
+                    <h1 className='w-[calc(100%-50px)] py-2 absolute z-30 bottom-4 left-1/2
+                            -translate-x-1/2
+                            text-white font-extrabold'>{data.name}</h1>
+                    <a href={data.GoTo} target='_blank'>
+                      <p
+                        className={` w-[calc(100%-50px)] py-2 absolute z-10 bottom-4 left-1/2 flex gap-2 items-center
+                            -translate-x-1/2
+                            text-white font-semibold
+                            `}
+                      >
+                        Visit Site
+                        <svg fill="#fff" height="30px" width="30px"  
+                          viewBox="0 0 330 330">
+                        <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                          s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                          c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/>
+                        </svg>
+                      </p>
                     </a>
                   </div>
                 </SwiperSlide>

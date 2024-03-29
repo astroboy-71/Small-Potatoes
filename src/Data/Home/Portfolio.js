@@ -3,49 +3,58 @@ import { Ceces, ChipMonk, Greenling, Mostly_Green, NurturMe, Red_Thumb,Sunwink,T
 const PortFolio = [
     {
         id: 1,
-        img: Ceces,
+        img: Greenling,
+        name: "Greenling",
         Colors: "bg-[#FE983B]",
-        GoTo: '#',
+        GoTo: '#'
     },
     {
         id: 2,
-        img: ChipMonk,
+        img: NurturMe,
+        name: "NurturMe",
         Colors: "bg-[#FE983B]",
         GoTo: '#'
     },
     {
         id: 3,
-        img: Greenling,
+        img: Ceces,
+        name: "Cece's Veggie Co.",
         Colors: "bg-[#FE983B]",
-        GoTo: '#'
+        GoTo: '#',
+        
     },
     {
         id: 4,
-        img: Mostly_Green,
+        img: Red_Thumb,
+        name: "Red Thumb Wine",
         Colors: "bg-[#FE983B]",
-        GoTo: '#',
+        GoTo: '#'
     },
     {
         id: 5,
-        img: NurturMe,
-        Colors: "bg-[#FE983B]",
-        GoTo: '#'
-    },
-    {
-        id: 6,
-        img: Red_Thumb,
-        Colors: "bg-[#FE983B]",
-        GoTo: '#'
-    },
-    {
-        id: 6,
         img: Sunwink,
+        name: "Sunwink",
+        Colors: "bg-[#FE983B]",
+        GoTo: '#'
+    },
+    {
+        id: 6,
+        img: ChipMonk,
+        name: "ChipMonk",
         Colors: "bg-[#FE983B]",
         GoTo: '#'
     },
     {
         id: 7,
         img: The_Conscious_Pet,
+        name: "The Conscious Pet",
+        Colors: "bg-[#FE983B]",
+        GoTo: '#',
+    },
+    {
+        id: 8,
+        img: Mostly_Green,
+        name: "Mostlygreen.life",
         Colors: "bg-[#FE983B]",
         GoTo: '#',
     },
